@@ -1,10 +1,9 @@
-package com.happy.video.mapper;
+package com.happy.video.service;
 
 import com.happy.video.pojo.User;
-import org.springframework.stereotype.Repository;
 
-@Repository
-public interface UserMapper {
+public interface UserService {
+    //直接复制于自动生成的mapper接口中的方法
     int deleteByPrimaryKey(Integer userId);
 
     int insert(User record);
